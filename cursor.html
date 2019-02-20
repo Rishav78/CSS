@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+	<style type="text/css">
+	body{
+		margin: 16px;
+	}
+		.Button{
+			margin: 15px;
+			cursor: pointer;
+			background-color: #cc2900;
+			font-size: 15px;
+			padding: 15px;
+			border: none;
+			color: white;
+			font-weight: lighter;
+			width: 100px;
+			border-radius: 5px;
+			position: absolute;
+			top: 120px;
+			outline: none;
+			transition-property: background-color;
+			transition-duration: 0.6s;
+		}
+		.Button:hover{
+			box-shadow:  3px 6px 20px #888888;
+			background-color: #ffffe6;
+			color: #cc2900;
+			border: 1px solid #cc2900;
+		}
+		.Button:active{
+			margin-top: 1.2em;
+			box-shadow:  3px 3px 10px rgba(136,136,138,0.5);
+		}
+		#btn1 {
+			width: 120px;
+			height: 35px;
+			border-radius: 5px;
+			background-color: #3385ff;
+			border: none;
+			font-size: 15px;
+			font-family: sans-serif;
+			outline: none;
+		}
+		#btn1:hover {
+			background-color: #4d4dff;
+			cursor: pointer;
+			box-shadow: 5px 5px 8px grey;
+			color: white;
+		}
+		#btn1:active {
+			margin-top: 5px;
+
+		}
+		
+		}
+	</style>
+</head>
+<body>
+<input type="button" class="Button" value="Submit">
+<p>
+<input type="button" name="button" value="Submit" id="btn1">
+</p>
+<div class="btn btn-lg"></div>
+
+</body>
+</html>
